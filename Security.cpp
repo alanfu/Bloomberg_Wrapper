@@ -19,6 +19,8 @@ void Security::printDataFrame() const
     }
 }
 
+//============================================================================//
+
 blpapi_Float64_t Security::getData(Date& date, string& field)
 {
     Datetime d(date.year(), date.month(), date.day());
